@@ -1,0 +1,48 @@
+site_name: Thang Bui Q. - tech doc
+site_author: thangbuiq
+site_description: Technical Documentation for me and dev like me
+copyright: Copyright 2025 @thangbuiq, All rights reserved
+
+theme:
+  name: terminal
+  palette: dark
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          analysis:
+            follow_imports: true
+          rendering:
+            show_root_full_path: false
+
+markdown_extensions:
+  - toc:
+      permalink: " #"
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - codehilite
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - tables
+
+extra_css:
+  - assets/styles.css
+  - assets/highlight.css
+  - assets/copy_code.css
+
+extra_javascript:
+  - assets/highlight.min.js
+  - assets/highlight_init.js
+  - assets/copy_code.js
