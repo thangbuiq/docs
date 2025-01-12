@@ -39,7 +39,6 @@ markdown_extensions:
 
 extra_css:
   - assets/styles.css
-  - assets/highlight.css
   - assets/copy_code.css
 
 extra_javascript:

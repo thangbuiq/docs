@@ -6,11 +6,9 @@ title: $
 
 i mainly document this for myself, but i hope it helps you too.
 
-here you will find all the information you need to get started with the best practices in software development and data engineering.
+here you will find all the information you need to get started with the best practices in software development and data engineering. this technical documentation is a just-paste-one-block-away reference for me, and i hope it will be for you too.
 
-i do hope you find this documentation helpful.
-
-technical documentation is a just-paste-one-block-away reference for me, and i hope it will be for you too.
+so i do hope you find this documentation helpful.
 
 Visit my:
 

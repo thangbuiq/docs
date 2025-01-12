@@ -27,7 +27,7 @@
     --block-background-color: #1a1b26; /* Tokyonight background for blocks */
     --global-font-color: #a9b1d6; /* Tokyonight foreground for global elements */
 
-    --page-width: 80em;
+    --page-width: 90em;
     --tertiary-color: #bb9af7; /* Tokyonight bright magenta */
     --error-color: #f7768e; /* Repeated for error context */
     --progress-bar-background: #32344a; /* Consistent background */
@@ -42,40 +42,8 @@
     display: none;
 }
 
-/* body {
-    background-color: var(--background-color);
-    color: var(--font-color);
-}
-
-a {
-    color: var(--primary-color);
-}
-
-a:hover {
-    background-color: var(--primary-color);
-    color: var(--invert-font-color);
-}
-
-blockquote::after {
-    color: #444; 
-}
-
-pre, code {
-    background-color: var(--code-bg-color);
-    color: var(--font-color);
-}
-
-.terminal-nav:first-child {
-    border-bottom: 1px dashed var(--secondary-color);
-} */
-
 .terminal-mkdocs-main-content {
     line-height: var(--global-line-height);
-}
-
-strong,
-.highlight {
-    background-color: #50ffff33;
 }
 
 .terminal-card > header {
@@ -141,7 +109,9 @@ strong,
 }
 .tab-content pre {
     margin: 0;
-    max-height: 300px; overflow: auto; border:none;
+    max-height: 300px;
+    overflow: auto;
+    border:none;
 }
 
 ol li::before {
