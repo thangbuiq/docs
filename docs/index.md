@@ -1,5 +1,5 @@
 ---
-title: $
+title: tech doc
 ---
 
 # welcome to my tech doc

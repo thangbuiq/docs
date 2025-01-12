@@ -1,15 +1,14 @@
-site_name: Thang Bui Q. - tech doc
+site_name: thangbuiq
 site_author: thangbuiq
-site_description: Technical Documentation for me and dev like me
+site_description: tech documentation for me and also dev like me
 copyright: Copyright 2025 @thangbuiq, All rights reserved
+
+repo_url: https://github.com/thangbuiq/docs
+repo_name: thangbuiq/docs
 
 theme:
   name: terminal
   palette: dark
-  features:
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
 
 plugins:
   - search
@@ -36,6 +35,7 @@ markdown_extensions:
   - pymdownx.details
   - attr_list
   - tables
+  - meta
 
 extra_css:
   - assets/styles.css
