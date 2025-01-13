@@ -21,3 +21,5 @@ uv sync
 ```bash
 uv run mkdocs serve
 ```
+
+4. open the browser and go to `http://localhost:8000`

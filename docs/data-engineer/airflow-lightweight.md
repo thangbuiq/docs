@@ -10,14 +10,14 @@ Follow my guide to install docker and docker-compose: [here](https://thangbuiq.w
 
 ## getting started
 
-1. Clone this repo
+- Clone this repo
 
 ```bash
 git clone https://github.com/thangbuiq/docker-airflow-lightweight
 cd docker-airflow-lightweight
 ```
 
-2. Optional: Create a `.env` file in the root directory with the fields in `.env.example`
+- Optional: Create a `.env` file in the root directory with the fields in `.env.example`
 
 ```bash
 AIRFLOW_IMAGE_NAME=apache/airflow:slim-2.9.3
@@ -27,9 +27,9 @@ _AIRFLOW_WWW_USER_USERNAME=airflow
 _AIRFLOW_WWW_USER_PASSWORD=changeme
 ```
 
-3. Optional: Update the `dags` folder with your own dags
-4. Optional: Update the `requirements.txt` file with your own dependencies
-5. Run the whole airflow stack using:
+- Optional: Update the `dags` folder with your own dags
+- Optional: Update the `requirements.txt` file with your own dependencies
+- Run the whole airflow stack using:
 
 ```bash
 docker compose up -d
@@ -38,9 +38,12 @@ make up
 ```
 
 > if you missed the `.env` setup, the default values will be used, which are not secure
-> login: `airflow`, password: `airflow`
 
-6. Access the Airflow webserver at `http://localhost:8080`
+```bash
+default user: login: `airflow`, password: `airflow`
+```
+
+- Access the Airflow webserver at `http://localhost:8080`
 
 ## update connections
 
