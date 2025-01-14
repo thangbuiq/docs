@@ -1,4 +1,4 @@
-# airflow lightweight (docker comppse)
+# airflow lightweight (docker compose)
 
 > Read vietnamese step-by-step version [here](https://viblo.asia/p/dung-apache-airflow-phien-ban-cuc-nhe-localexecutor-voi-docker-compose-x7Z4DAjPJnX)
 

@@ -1,4 +1,4 @@
-# deploy mkdocs to github pages
+# gh actions - mkdocs on github pages
 
 create file .github/workflows/mkdocs.yml
 

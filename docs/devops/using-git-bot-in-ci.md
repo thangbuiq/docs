@@ -1,4 +1,6 @@
-# using git bot in CI
+# using git bot in CI workflow
+
+> this works for any CI/CD tool, but I will use GitHub Actions as an example.
 
 ## use case
 
