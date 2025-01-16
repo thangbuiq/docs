@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    font-style: normal;
+    font-weight: normal;
+    src: local("JetBrainsMono"), url("JetBrainsMono.woff2") format("woff");
+}
+:root {
+    --global-font-size: 14px;
+    --global-line-height: 1.5em;
+    --global-space: 10px;
+    --font-stack: JetBrainsMono, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+        Courier New, monospace, serif;
+    --font-stack: JetBrainsMono, Courier New, monospace, serif;
+    --mono-font-stack: JetBrainsMono, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+        Courier New, monospace, serif;
+
+    --background-color: #15151b; /* Tokyonight background */
+    --font-color: #cfd5f1; /* Tokyonight foreground */
+    --invert-font-color: #1a1b26; /* Dark color for inverted elements */
+    --primary-color: #7aa2f7; /* Tokyonight normal blue */
+    --secondary-color: #787c99; /* Tokyonight normal white */
+    --error-color: #f7768e; /* Tokyonight normal red */
+    --progress-bar-background: #32344a; /* Tokyonight normal black */
+    --progress-bar-fill: #7aa2f7; /* Tokyonight normal blue */
+    --code-bg-color: #32344a; /* Tokyonight normal black for code blocks */
+    --input-style: solid; /* Keeping input style solid */
+    --block-background-color: #1a1b26; /* Tokyonight background for blocks */
+    --global-font-color: #a9b1d6; /* Tokyonight foreground for global elements */
+
+    --page-width: 90em;
+    --tertiary-color: #bb9af7; /* Tokyonight bright magenta */
+    --error-color: #f7768e; /* Repeated for error context */
+    --progress-bar-background: #32344a; /* Consistent background */
+    --progress-bar-fill: #7aa2f7; /* Consistent progress fill */
+    --code-bg-color: #1a1b26; /* Consistent code background */
+    --input-style: solid;
+    --display-h1-decoration: none;
+}
+
+.md-typeset h1,
+.md-content__button {
+    display: none;
+}
+
+.terminal-mkdocs-main-content {
+    line-height: var(--global-line-height);
+}
+
+.terminal-card > header {
+    color: var(--font-color);
+    text-align: center;
+    background-color: var(--progress-bar-background);
+    padding: 0.3em 0.5em;
+}
+.btn.btn-sm {
+    color: var(--font-color);
+    padding: 0.2em 0.5em;
+    font-size: 0.8em;
+}
+
+.loading-message {
+    display: none;
+    margin-top: 20px;
+}
+
+.response-section {
+    display: none;
+    padding-top: 20px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+}
+.tab-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-bottom: 1px solid var(--font-color);
+}
+.tab-item {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid var(--font-color);
+    margin-right: -1px;
+    border-bottom: none;
+}
+.tab-item:hover,
+.tab-item:focus,
+.tab-item:active {
+    background-color: var(--progress-bar-background);
+}
+.tab-content {
+    display: none;
+    border: 1px solid var(--font-color);
+    border-top: none;
+}
+.tab-content:first-of-type {
+    display: block;
+}
+
+.tab-content header {
+    padding: 0.5em;
+    display: flex; 
+    justify-content: end; 
+    align-items: center;
+    background-color: var(--progress-bar-background);
+}
+.tab-content pre {
+    margin: 0;
+    max-height: 300px;
+    overflow: auto;
+    border:none;
+}
+
+ol li::before {
+    content: counters(item, ".") ". ";
+    counter-increment: item;
+}

@@ -1,0 +1,20 @@
+.copy-code-button {
+    background-color: #32344a; /* Match Tokyonight theme */
+    color: #a9b1d6; /* Foreground text color */
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+  }
+  
+  .copy-code-button:hover {
+    opacity: 1;
+  }
+  
+  .copy-code-button:active {
+    transform: scale(0.95);
+  }
+  
