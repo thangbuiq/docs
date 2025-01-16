@@ -7,7 +7,7 @@ Replace `20` with your desired node version
 ```bash
 sudo apt update && sudo apt install -y curl
 curl -sL https://deb.nodesource.com/setup_20.x | sudo bash -
-sudo apt update && install -y nodejs
+sudo apt update && sudo apt install -y nodejs
 ```
 
 ## install nodejs with nvm
