@@ -6,7 +6,7 @@
 
 Make sure you have `docker` and `docker-compose` installed
 
-Follow my guide to install docker and docker-compose: [here](https://thangbuiq.work/docs/linux-and-ubuntu-setup/docker/)
+Follow my guide to install docker and docker-compose: [here](/linux-and-ubuntu-setup/docker/)
 
 ## getting started
 

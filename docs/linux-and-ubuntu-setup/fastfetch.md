@@ -57,7 +57,7 @@ Open `~/.config/fastfetch/config.jsonc` and edit if you want to use my config:
         },
         {
             "key": "{$2}{#35}󰍛 cpu      ",
-            "type": "cpu",
+            "type": "cpu"
         },
         {
             "key": "{$2}{#34}󰍛 gpu      ",

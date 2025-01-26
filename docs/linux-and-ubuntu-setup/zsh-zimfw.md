@@ -1,4 +1,4 @@
-# zsh
+# zsh & zimfw
 
 ## setup zsh and zimfw
 
@@ -27,9 +27,6 @@ zmodule completion
 
 # Customize
 zmodule https://github.com/agkozak/zsh-z
-
-# Modules that must be initialized last
-zmodule spaceship-prompt/spaceship-prompt --name spaceship --no-submodules
 
 # Fish-like syntax highlighting for Zsh.
 zmodule zsh-users/zsh-syntax-highlighting
