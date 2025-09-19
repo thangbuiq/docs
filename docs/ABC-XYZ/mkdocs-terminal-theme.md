@@ -18,7 +18,7 @@ theme:
   palette: dark # or light
 ```
 
-if you want to use the `tokyonight` theme like my current site, you can use custom css, refer to <a href="https://github.com/thangbuiq/docs/blob/main/docs/assets/styles.css" target="_blank">here</a>, then add the extra css files to `mkdocs.yml`:
+if you want to use the `tokyonight` theme like my current site, you can use custom css, refer to <a href="https://github.com/thangbuiq/docs/blob/d9d3c4f5777e1499596fd242e5d2854efdf67fe8/docs/assets/styles.css" target="_blank">here</a>, then add the extra css files to `mkdocs.yml`:
 
 ```yaml
 extra_css:

@@ -1,40 +1,21 @@
-@font-face {
-    font-family: "JetBrainsMono";
-    font-style: normal;
-    font-weight: normal;
-    src: local("JetBrainsMono"), url("JetBrainsMono.woff2") format("woff");
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 :root {
-    --global-font-size: 14px;
     --global-line-height: 1.5em;
     --global-space: 10px;
-    --font-stack: JetBrainsMono, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
-        Courier New, monospace, serif;
-    --font-stack: JetBrainsMono, Courier New, monospace, serif;
-    --mono-font-stack: JetBrainsMono, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono,
-        Courier New, monospace, serif;
+    --page-width: 65em;
+    --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --mono-font-stack: 'Source Code Pro', monospace;
 
-    --background-color: #15151b; /* Tokyonight background */
-    --font-color: #cfd5f1; /* Tokyonight foreground */
-    --invert-font-color: #1a1b26; /* Dark color for inverted elements */
-    --primary-color: #7aa2f7; /* Tokyonight normal blue */
-    --secondary-color: #787c99; /* Tokyonight normal white */
-    --error-color: #f7768e; /* Tokyonight normal red */
-    --progress-bar-background: #32344a; /* Tokyonight normal black */
-    --progress-bar-fill: #7aa2f7; /* Tokyonight normal blue */
-    --code-bg-color: #32344a; /* Tokyonight normal black for code blocks */
-    --input-style: solid; /* Keeping input style solid */
-    --block-background-color: #1a1b26; /* Tokyonight background for blocks */
-    --global-font-color: #a9b1d6; /* Tokyonight foreground for global elements */
-
-    --page-width: 90em;
-    --tertiary-color: #bb9af7; /* Tokyonight bright magenta */
-    --error-color: #f7768e; /* Repeated for error context */
-    --progress-bar-background: #32344a; /* Consistent background */
-    --progress-bar-fill: #7aa2f7; /* Consistent progress fill */
-    --code-bg-color: #1a1b26; /* Consistent code background */
-    --input-style: solid;
-    --display-h1-decoration: none;
+    --background-color: #0d1117;
+    --primary-color: #66FF66;
+    --secondary-color: #ffffff;    
+    --error-color: #FF3333;               
+    --progress-bar-background: #003300;   
+    --progress-bar-fill: #66FF66;         
+    --code-bg-color: #001100;             
+    --block-background-color: #000000;    
+    --global-font-color: #66FF66;         
 }
 
 .md-typeset h1,
@@ -117,4 +98,18 @@
 ol li::before {
     content: counters(item, ".") ". ";
     counter-increment: item;
+}
+
+pre {
+    padding: 10px;
+    border: 1px solid var(--code-bg-color);
+    border-radius: 8px;
+    overflow-x: auto !important; /* or scroll */
+    white-space: pre !important;
+    width: 45em;
+}
+
+code {
+    font-family: var(--mono-font-stack);
+    font-size: .95em !important;
 }
