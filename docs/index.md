@@ -3,16 +3,15 @@ title: tech doc
 ---
 
 # welcome to my tech doc
-
-```
+<div id="ascii-art">
                 _        _   _ _ _       _ _      
                | |      | | (_) | |     | (_)     
    ___ ___   __| | ___  | |_ _| | |   __| |_  ___ 
   / __/ _ \ / _` |/ _ \ | __| | | |  / _` | |/ _ \
  | (_| (_) | (_| |  __/ | |_| | | | | (_| | |  __/
   \___\___/ \__,_|\___|  \__|_|_|_|  \__,_|_|\___|
-```                                
-                                                  
+</div>  
+
 i mainly document this for myself, but i hope it helps you too.
 
 here you will find all the information you need to get started with the best practices in software development and data engineering. this technical documentation is a just-paste-one-block-away reference for me, and i hope it will be for you too.

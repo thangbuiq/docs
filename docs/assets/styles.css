@@ -104,12 +104,33 @@ pre {
     padding: 10px;
     border: 1px solid var(--code-bg-color);
     border-radius: 8px;
-    overflow-x: auto !important; /* or scroll */
+    overflow-x: auto !important;
     white-space: pre !important;
-    width: 45em;
+    max-width: 45em;
 }
 
 code {
     font-family: var(--mono-font-stack);
     font-size: .95em !important;
+}
+
+#ascii-art {
+    text-align: center;
+    line-height: 1.2em;
+    font-family: var(--mono-font-stack);
+    white-space: pre-wrap !important;
+    color: var(--primary-color);
+    margin-bottom: calc(var(--global-space) * 4);
+}
+
+@media (max-width: 768px) {
+    #ascii-art {
+        text-align: left;
+        font-size: 0.7em;
+        margin-bottom: calc(var(--global-space) * 2);
+    }
+    pre {
+        white-space: pre-wrap !important;
+        max-width: fit-content;
+    }
 }
